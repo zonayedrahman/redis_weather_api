@@ -12,7 +12,6 @@ def get_cached_city_weather(city_name):
     cached = r.get(city_name)
 
     if cached:
-        print('CACHE HIT')
         return cached
     
     else:
